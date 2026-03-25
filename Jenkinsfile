@@ -25,7 +25,7 @@ pipeline {
                 sh '''
                     cd crypto-tax-calculator/
 
-                    pysonar \
+                    sudo pysonar \
                       --sonar-host-url http://13.49.238.0:9000 \
                       --sonar-token sqp_10ddac5a9b96c36fada4b03e0bd3cc8cdc6bf95a \
                       --sonar-project-key DevSecOps_project_CI
